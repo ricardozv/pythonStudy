@@ -1,12 +1,9 @@
-import random
+def jogar():
+    print("*********************************")
+    print("***Bem vindo ao jogo da Forca!***")
+    print("*********************************")
 
-sorteado = random.randrange(0,4)
+    print("Fim do jogo")
 
-print(sorteado)
-
-if sorteado == 1:
-    print( "Paulo")
-elif sorteado == 2:
-    print("Juliana")
-else:
-    print("Tamires")
+if(__name__ == "__main__"):
+    jogar()
